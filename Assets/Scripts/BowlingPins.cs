@@ -44,9 +44,9 @@ public class BowlingPins : MonoBehaviour {
             pins[i].gameObject.SetActive(true);
             pins[i].position = startPos[i];
             pins[i].rotation = Quaternion.identity;
-            Rigidbody r = pins[i].GetComponent<Rigidbody>();
-            r.velocity = Vector3.zero;
-            r.angularVelocity = Vector3.zero;
+            //Rigidbody r = pins[i].GetComponent<Rigidbody>();
+            //r.velocity = Vector3.zero;
+            //r.angularVelocity = Vector3.zero;
         }
         numPinsDown = 0;
     }
